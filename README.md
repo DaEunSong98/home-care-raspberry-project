@@ -42,6 +42,19 @@ Python 3.0기반
 
 
 ## 3. 3. 주요 기능과 동작 
+![image](https://user-images.githubusercontent.com/85435343/230858408-0aa05aae-d6e0-4f5c-a5fa-d9f9115e814f.png)
+ 
+![앱 화면](https://user-images.githubusercontent.com/85435343/230858931-2ac6234b-5630-42c8-876b-f6a9fd7b9724.PNG)  
+ 
+![cctv](https://user-images.githubusercontent.com/85435343/230858920-73dde1bd-d763-4a8b-ac4f-2f8d46f391f4.PNG)  
+
+
+![움직임 관련1](https://user-images.githubusercontent.com/85435343/230858936-5a692204-052d-4f40-915e-b8a4303991cb.PNG)  
+
+![움직임 관련2](https://user-images.githubusercontent.com/85435343/230858939-e2f16dda-2e31-407e-93d7-e0036dd7e5ad.PNG)  
+
+![화재 경보](https://user-images.githubusercontent.com/85435343/230858943-e87a6979-425f-4b61-a147-c71911147dc0.PNG)    
+
 
 
 ## 4. 개발 중 발생한 문제점 
