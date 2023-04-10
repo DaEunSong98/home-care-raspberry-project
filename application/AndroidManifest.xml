@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.grad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:minSdkVersion="8"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".splashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loginActivity"
+            android:label="login page" />
+        <activity
+            android:name=".joinActivity"
+            android:label="sign in" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Home security application" />
+        <activity
+            android:name=".cctvActivity"
+            android:label="CCTV" />
+        <activity
+            android:name=".explanationActivity"
+            android:label="APP INTRO" />
+        <activity
+            android:name=".infoActivity"
+            android:label="App information" />
+        <activity
+            android:name=".funcActivity"
+            android:label="App functions" />
+        <activity
+            android:name=".sensorActivity"
+            android:label="FIRE STATE" />
+        <activity
+            android:name=".settingsActivity" />
+        <activity
+            android:name=".pushActivity"
+            android:label="PUSH RESPONSE" />
+    </application>
+
+</manifest>

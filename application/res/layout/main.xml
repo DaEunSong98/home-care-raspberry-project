@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/intro_cctv"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="25dp"
+            android:maxWidth="180dp"
+            android:onClick="introClick"
+            android:src="@drawable/cctv"/>
+
+        <ImageView
+            android:id="@+id/sensor"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="180dp"
+            android:layout_below="@+id/intro_cctv"
+            android:onClick="introClick"
+            android:src="@drawable/fire"/>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/txt"
+        android:layout_marginBottom="35dp"
+        android:weightSum="3"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:id="@+id/callE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="80dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:onClick="introClick"
+            android:src="@drawable/phonered"/>
+
+        <ImageView
+            android:id="@+id/motionSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="80dp"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:onClick="introClick"
+            android:src="@drawable/settings"/>
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="80dp"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:onClick="introClick"
+            android:src="@drawable/info"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_above="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:text="베리베리 안전"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="SMWU 2020CS"/>
+
+
+</RelativeLayout>

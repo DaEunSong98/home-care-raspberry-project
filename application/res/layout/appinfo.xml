@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_horizontal"
+        android:text="APP 정보"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/title"
+        android:textColor="#333"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textSize="17dp"
+        android:background="@drawable/round_background"
+        android:text="제작자: 김서연,송다은,김제경\n제작기간: 2019-2020.02\n제작목적: 숙명여자대학교 2020 cs졸업작품\n\n*APP 정보*\n
+이 앱은 독거노인을 위해 제작된 앱으로 자녀들이나 구청직원이 사용하도록 제작되었지만 동시에 집에 있을 시간이 적은 현대인들에게도 유용한 앱이다.
+\n cctv기능으로 집안을 볼 수 있어 어린아이를 보거나 부모님, 반려동물 혹은 집 안 내부를 볼 수 있고, 화재 발생여부도 알 수 있다.
+초기에 독거노인을 위한 앱으로 제작되었기에 움직임이 없는 경우를 감지하여 노인들의 고독사나 쓰러진 것을 조기발견하기 위한 기능도 포함하고 있다."/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_above="@id/txt">
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:text="Exit"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_above="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:text="베리베리 안전"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="SMWU 2020CS"/>
+
+</RelativeLayout>

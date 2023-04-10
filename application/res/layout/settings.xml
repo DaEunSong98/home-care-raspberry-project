@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_horizontal"
+        android:text="SETTING"/>
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt"
+        android:textSize="25dp"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_horizontal"
+        android:text="Motion Detection Sensor"/>
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ToggleButton
+            android:id="@+id/settingOn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:textOn="OFF"
+            android:textOff="ON"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:onClick="onclick"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round_btn"/>
+        <ToggleButton
+            android:id="@+id/settingMode"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:textOn="외출"
+            android:textOff="일반"
+            android:textSize="20dp"
+            android:onClick="onclick"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round_btn"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:onClick="onclick"
+        android:text="Exit"/>
+
+</RelativeLayout>
